@@ -119,6 +119,7 @@ export const gallery: GalleryImage[] = [
   { id: '2', url: '/assets/gallery_new_2.jpg', alt: 'Nail Art Design 2', category: 'acrilicas' },
   { id: '3', url: '/assets/gallery_new_3.jpg', alt: 'Nail Art Design 3', category: 'tradicional' },
   { id: '4', url: '/assets/gallery_new_4.jpg', alt: 'Hero Nail Art', category: 'nailart' },
+  { id: '5', url: '/assets/gallery_new_5.jpg', alt: 'Nail Art Design 5', category: 'nailart' },
 ];
 
 export const instagramReels: InstagramReel[] = [
@@ -134,4 +135,15 @@ export const instagramReels: InstagramReel[] = [
     id: '3',
     url: 'https://www.instagram.com/reel/DchLKKvR9al/'
   }
+];
+
+export const fullGallery: GalleryImage[] = [
+  ...gallery,
+  { id: '6', url: '/assets/gallery_new_6.jpg', alt: 'Nail Art 6', category: 'acrilicas' },
+  { id: '7', url: '/assets/gallery_new_7.jpg', alt: 'Nail Art 7', category: 'nailart' },
+  { id: '8', url: '/assets/gallery_new_8.jpg', alt: 'Nail Art 8', category: 'tradicional' },
+  { id: '9', url: '/assets/gallery_new_9.jpg', alt: 'Nail Art 9', category: 'acrilicas' },
+  { id: '10', url: '/assets/gallery_new_10.jpg', alt: 'Nail Art 10', category: 'nailart' },
+  { id: '11', url: '/assets/gallery_new_11.jpg', alt: 'Nail Art 11', category: 'tradicional' },
+  { id: '12', url: '/assets/gallery_new_12.jpg', alt: 'Nail Art 12', category: 'acrilicas' },
 ];

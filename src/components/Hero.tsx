@@ -84,9 +84,9 @@ export function Hero() {
                className="absolute -bottom-8 md:-bottom-12 -left-4 md:-left-12 w-[55%] md:w-[45%] aspect-[3/4] border-8 border-brand-ivory overflow-hidden bg-brand-rose z-20 shadow-2xl"
              >
                 <img 
-                  src="/assets/gallery_nail_1.jpeg" 
+                  src="/assets/hero_overlap_v2.jpg" 
                   alt="Nail Art Detail" 
-                  className="w-full h-full object-cover scale-[1.3] origin-top-right"
+                  className="w-full h-full object-cover object-center"
                 />
              </motion.div>
              

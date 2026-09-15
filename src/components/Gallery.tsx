@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
+import { Link } from 'react-router-dom';
 import { gallery } from '../data';
 import { X, ZoomIn } from 'lucide-react';
 import { cn } from '../lib/utils';
@@ -39,6 +40,12 @@ export function Gallery() {
               </div>
             </motion.div>
           ))}
+        </div>
+        
+        <div className="mt-12 text-center">
+          <Link to="/galeria" className="inline-block bg-brand-dark text-white px-8 py-3 rounded hover:bg-brand-gold transition-colors duration-300 tracking-wide uppercase text-sm">
+            Ver más trabajos
+          </Link>
         </div>
       </div>
 
