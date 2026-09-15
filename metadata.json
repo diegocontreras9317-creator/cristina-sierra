@@ -1,0 +1,6 @@
+{
+  "name": "Cristina Sierra Nail",
+  "description": "Sitio web oficial de Cristina Sierra Nail, marca premium de nail art con 9 sedes en Medellín y área metropolitana.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
